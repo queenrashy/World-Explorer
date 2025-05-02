@@ -1,0 +1,6 @@
+.env
+config.py
+venv/
+.vscode/
+instance/
+.db
