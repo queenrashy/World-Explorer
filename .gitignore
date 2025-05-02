@@ -1,5 +1,5 @@
-.env
-config.py
+# .env
+# config.py
 venv/
 .vscode/
 instance/
