@@ -10,7 +10,7 @@ class Config(object):
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     
-    MAIL_DEBUG = os.environ.get('MAIL_DEBUG')
+    MAIL_DEBUG = os.environ.get('MAIL_DEBUG', '0')
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
     DEFAULT_FROM_EMAIL = os.environ.get('MAIL_USERNAME')
